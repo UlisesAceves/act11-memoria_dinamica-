@@ -14,7 +14,9 @@ int main(){
     a.insertar_final("en que");
     a.insertar_final("puedo");
     a.insertar_final("ayudar?");
-    
+
+    a.insertar_inicio("Ulises");
+    a.insertar_inicio("Hola!!!");
 
 
     for (size_t i = 0; i < a.size(); i++)
