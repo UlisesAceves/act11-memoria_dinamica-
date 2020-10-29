@@ -17,6 +17,10 @@ public:
     ~ArregloDinamico();
     void insertar_final(const string &s);
     void insertar_inicio(const string &s);
+    size_t size();
+    string operator [](size_t p){
+        return arreglo[p];
+    }
 
 private:
     void expandir();

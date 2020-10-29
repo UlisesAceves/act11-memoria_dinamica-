@@ -33,6 +33,11 @@ void ArregloDinamico::insertar_inicio(const string &s)
     cont ++;
 }
 
+size_t ArregloDinamico::size()
+{
+    return cont;
+}
+
 void ArregloDinamico::expandir()
 {
     string *nuevo = new string[tam+MAX];

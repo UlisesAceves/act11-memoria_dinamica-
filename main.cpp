@@ -4,7 +4,23 @@
 using namespace std;
 
 int main(){
-    //ArregloDinamico a;
+    ArregloDinamico a;
+
+    a.insertar_final("que");
+    a.insertar_final("tal?");
+    a.insertar_final("soy");
+    a.insertar_final("tu");
+    a.insertar_final("computadora");
+    a.insertar_final("en que");
+    a.insertar_final("puedo");
+    a.insertar_final("ayudar?");
+    
+
+
+    for (size_t i = 0; i < a.size(); i++)
+    {
+        cout << a[i] << " ";
+    }
 
 
 
