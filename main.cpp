@@ -15,15 +15,23 @@ int main(){
     a.insertar_final("puedo");
     a.insertar_final("ayudar?");
 
-    a.insertar_inicio("Ulises");
-    a.insertar_inicio("Hola!!!");
-
-
+    cout<<"\nFrase Inicial: "<<endl;
     for (size_t i = 0; i < a.size(); i++)
     {
         cout << a[i] << " ";
     }
 
+
+    a.insertar_inicio("Ulises");
+    a.insertar_inicio("Hola!!!");
+
+    cout<<"\n\nFrase Final: "<<endl;
+    for (size_t i = 0; i < a.size(); i++)
+    {
+        cout << a[i] << " ";
+    }
+
+    cout<<"\n\n";
 
 
 
